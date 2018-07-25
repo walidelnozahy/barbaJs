@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style-barba.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">
+
+</head>
+
+<body>
+    <form action="https://api.formbucket.com/f/buk_5pZlX4fRjDrezI22h0yu8oYL" method="post" id="subscribe" class="first-form">
+
+        <div class="form-text">
+            <a href="#" class="close">X</a>
+            <img src="https://res.cloudinary.com/dd5e5iszi/image/upload/v1523446663/other/Group-dark.png" alt="">
+            <h3>دعنا نتصل بك</h3>
+            <p>من فضلك قم بملأ بياناتك</p>
+        </div>
+        <div class="input-wrapper">
+            <div class="each-input">
+                <label for="">الاسم بالكامل</label>
+                <br>
+                <input type="text" name="name" required>
+            </div>
+            <div class="each-input">
+                <label for="">الايميل</label>
+                <br>
+                <input type="email" name="email" required>
+            </div>
+            <div class="each-input">
+                <label for="">البلد</label>
+                <br>
+                <!-- <select name="countryCode" id="country-list" required></select> -->
+                <select name='Country' id="country-list" required>
+                    <option data-countryCode="TR" value="+90 Turkey" Selected> (90+) Turkey - تركيا</option>
+                    <option data-countryCode="AE" value="+971 United Arab Emirates">(971+) United Arab Emirates الامرات العربية المتحدة</option>
+                    <option data-countryCode="SA" value="+966 Saudi Arabia">(966+) Saudi Arabia - المملكة العربية السعودية</option>
+                    <option data-countryCode="KW" value="+965 Kuwait">(965+) Kuwait - الكويت</option>
+                    <option data-countryCode="QA" value="+974 Qatar">(974+) Qatar - قطر</option>
+                    <option data-countryCode="LB" value="+961 Lebanon">(961+) Lebanon - لبنان</option>
+                    <option data-countryCode="JO" value="+962 Jordan">(962+) Jordan - الاردن</option>
+                    <option data-countryCode="OM" value="+968 Oman">(968+) Oman - عمان</option>
+                    <option data-countryCode="MA" value="+212 Morocco">(212+) Morocco - المغرب</option>
+                    <option data-countryCode="TN" value="+216 Tunisia">(216+) Tunisia - تونس</option>
+                    <option data-countryCode="DZ" value="+213 Algeria">(213+) Algeria - الجزائر</option>
+                    <option data-countryCode="SI" value="+963 Syria">(+963) Syria سوريا</option>
+                    <option data-countryCode="EG" value="+20 Egypt">(+20) Egypt مصر</option>
+                    <option data-countryCode="LY" value="+218 Libya">(+218) Libya ليبيا</option>
+                    <option data-countryCode="IR" value="+98 Iran">(+98) Iran ايران</option>
+
+                    <option data-countryCode="YE" value="+969 Yemen">(+969) Yemen (North) اليمن</option>
+
+
+                    <optgroup label="Other countries">
+                        <option data-countryCode="GB" value="44">UK (+44)</option>
+                        <option data-countryCode="US" value="1">USA (+1)</option>
+                        <option data-countryCode="AD" value="376">Andorra (+376)</option>
+                        <option data-countryCode="AO" value="244">Angola (+244)</option>
+                        <option data-countryCode="AI" value="1264">Anguilla (+1264)</option>
+                        <option data-countryCode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
+                        <option data-countryCode="AR" value="54">Argentina (+54)</option>
+                        <option data-countryCode="AM" value="374">Armenia (+374)</option>
+                        <option data-countryCode="AW" value="297">Aruba (+297)</option>
+                        <option data-countryCode="AU" value="61">Australia (+61)</option>
+                        <option data-countryCode="AT" value="43">Austria (+43)</option>
+                        <option data-countryCode="AZ" value="994">Azerbaijan (+994)</option>
+                        <option data-countryCode="BS" value="1242">Bahamas (+1242)</option>
+                        <option data-countryCode="BH" value="973">Bahrain (+973)</option>
+                        <option data-countryCode="BD" value="880">Bangladesh (+880)</option>
+                        <option data-countryCode="BB" value="1246">Barbados (+1246)</option>
+                        <option data-countryCode="BY" value="375">Belarus (+375)</option>
+                        <option data-countryCode="BE" value="32">Belgium (+32)</option>
+                        <option data-countryCode="BZ" value="501">Belize (+501)</option>
+                        <option data-countryCode="BJ" value="229">Benin (+229)</option>
+                        <option data-countryCode="BM" value="1441">Bermuda (+1441)</option>
+                        <option data-countryCode="BT" value="975">Bhutan (+975)</option>
+                        <option data-countryCode="BO" value="591">Bolivia (+591)</option>
+                        <option data-countryCode="BA" value="387">Bosnia Herzegovina (+387)</option>
+                        <option data-countryCode="BW" value="267">Botswana (+267)</option>
+                        <option data-countryCode="BR" value="55">Brazil (+55)</option>
+                        <option data-countryCode="BN" value="673">Brunei (+673)</option>
+                        <option data-countryCode="BG" value="359">Bulgaria (+359)</option>
+                        <option data-countryCode="BF" value="226">Burkina Faso (+226)</option>
+                        <option data-countryCode="BI" value="257">Burundi (+257)</option>
+                        <option data-countryCode="KH" value="855">Cambodia (+855)</option>
+                        <option data-countryCode="CM" value="237">Cameroon (+237)</option>
+                        <option data-countryCode="CA" value="1">Canada (+1)</option>
+                        <option data-countryCode="CV" value="238">Cape Verde Islands (+238)</option>
+                        <option data-countryCode="KY" value="1345">Cayman Islands (+1345)</option>
+                        <option data-countryCode="CF" value="236">Central African Republic (+236)</option>
+                        <option data-countryCode="CL" value="56">Chile (+56)</option>
+                        <option data-countryCode="CN" value="86">China (+86)</option>
+                        <option data-countryCode="CO" value="57">Colombia (+57)</option>
+                        <option data-countryCode="KM" value="269">Comoros (+269)</option>
+                        <option data-countryCode="CG" value="242">Congo (+242)</option>
+                        <option data-countryCode="CK" value="682">Cook Islands (+682)</option>
+                        <option data-countryCode="CR" value="506">Costa Rica (+506)</option>
+                        <option data-countryCode="HR" value="385">Croatia (+385)</option>
+                        <option data-countryCode="CU" value="53">Cuba (+53)</option>
+                        <option data-countryCode="CY" value="90392">Cyprus North (+90392)</option>
+                        <option data-countryCode="CY" value="357">Cyprus South (+357)</option>
+                        <option data-countryCode="CZ" value="42">Czech Republic (+42)</option>
+                        <option data-countryCode="DK" value="45">Denmark (+45)</option>
+                        <option data-countryCode="DJ" value="253">Djibouti (+253)</option>
+                        <option data-countryCode="DM" value="1809">Dominica (+1809)</option>
+                        <option data-countryCode="DO" value="1809">Dominican Republic (+1809)</option>
+                        <option data-countryCode="EC" value="593">Ecuador (+593)</option>
+
+                        <option data-countryCode="SV" value="503">El Salvador (+503)</option>
+                        <option data-countryCode="GQ" value="240">Equatorial Guinea (+240)</option>
+                        <option data-countryCode="ER" value="291">Eritrea (+291)</option>
+                        <option data-countryCode="EE" value="372">Estonia (+372)</option>
+                        <option data-countryCode="ET" value="251">Ethiopia (+251)</option>
+                        <option data-countryCode="FK" value="500">Falkland Islands (+500)</option>
+                        <option data-countryCode="FO" value="298">Faroe Islands (+298)</option>
+                        <option data-countryCode="FJ" value="679">Fiji (+679)</option>
+                        <option data-countryCode="FI" value="358">Finland (+358)</option>
+                        <option data-countryCode="FR" value="33">France (+33)</option>
+                        <option data-countryCode="GF" value="594">French Guiana (+594)</option>
+                        <option data-countryCode="PF" value="689">French Polynesia (+689)</option>
+                        <option data-countryCode="GA" value="241">Gabon (+241)</option>
+                        <option data-countryCode="GM" value="220">Gambia (+220)</option>
+                        <option data-countryCode="GE" value="7880">Georgia (+7880)</option>
+                        <option data-countryCode="DE" value="49">Germany (+49)</option>
+                        <option data-countryCode="GH" value="233">Ghana (+233)</option>
+                        <option data-countryCode="GI" value="350">Gibraltar (+350)</option>
+                        <option data-countryCode="GR" value="30">Greece (+30)</option>
+                        <option data-countryCode="GL" value="299">Greenland (+299)</option>
+                        <option data-countryCode="GD" value="1473">Grenada (+1473)</option>
+                        <option data-countryCode="GP" value="590">Guadeloupe (+590)</option>
+                        <option data-countryCode="GU" value="671">Guam (+671)</option>
+                        <option data-countryCode="GT" value="502">Guatemala (+502)</option>
+                        <option data-countryCode="GN" value="224">Guinea (+224)</option>
+                        <option data-countryCode="GW" value="245">Guinea - Bissau (+245)</option>
+                        <option data-countryCode="GY" value="592">Guyana (+592)</option>
+                        <option data-countryCode="HT" value="509">Haiti (+509)</option>
+                        <option data-countryCode="HN" value="504">Honduras (+504)</option>
+                        <option data-countryCode="HK" value="852">Hong Kong (+852)</option>
+                        <option data-countryCode="HU" value="36">Hungary (+36)</option>
+                        <option data-countryCode="IS" value="354">Iceland (+354)</option>
+                        <option data-countryCode="IN" value="91">India (+91)</option>
+                        <option data-countryCode="ID" value="62">Indonesia (+62)</option>
+
+                        <option data-countryCode="IQ" value="964">Iraq (+964)</option>
+                        <option data-countryCode="IE" value="353">Ireland (+353)</option>
+                        <option data-countryCode="IL" value="972">Israel (+972)</option>
+                        <option data-countryCode="IT" value="39">Italy (+39)</option>
+                        <option data-countryCode="JM" value="1876">Jamaica (+1876)</option>
+                        <option data-countryCode="JP" value="81">Japan (+81)</option>
+
+                        <option data-countryCode="KZ" value="7">Kazakhstan (+7)</option>
+                        <option data-countryCode="KE" value="254">Kenya (+254)</option>
+                        <option data-countryCode="KI" value="686">Kiribati (+686)</option>
+                        <option data-countryCode="KP" value="850">Korea North (+850)</option>
+                        <option data-countryCode="KR" value="82">Korea South (+82)</option>
+
+                        <option data-countryCode="KG" value="996">Kyrgyzstan (+996)</option>
+                        <option data-countryCode="LA" value="856">Laos (+856)</option>
+                        <option data-countryCode="LV" value="371">Latvia (+371)</option>
+
+                        <option data-countryCode="LS" value="266">Lesotho (+266)</option>
+                        <option data-countryCode="LR" value="231">Liberia (+231)</option>
+
+                        <option data-countryCode="LI" value="417">Liechtenstein (+417)</option>
+                        <option data-countryCode="LT" value="370">Lithuania (+370)</option>
+                        <option data-countryCode="LU" value="352">Luxembourg (+352)</option>
+                        <option data-countryCode="MO" value="853">Macao (+853)</option>
+                        <option data-countryCode="MK" value="389">Macedonia (+389)</option>
+                        <option data-countryCode="MG" value="261">Madagascar (+261)</option>
+                        <option data-countryCode="MW" value="265">Malawi (+265)</option>
+                        <option data-countryCode="MY" value="60">Malaysia (+60)</option>
+                        <option data-countryCode="MV" value="960">Maldives (+960)</option>
+                        <option data-countryCode="ML" value="223">Mali (+223)</option>
+                        <option data-countryCode="MT" value="356">Malta (+356)</option>
+                        <option data-countryCode="MH" value="692">Marshall Islands (+692)</option>
+                        <option data-countryCode="MQ" value="596">Martinique (+596)</option>
+                        <option data-countryCode="MR" value="222">Mauritania (+222)</option>
+                        <option data-countryCode="YT" value="269">Mayotte (+269)</option>
+                        <option data-countryCode="MX" value="52">Mexico (+52)</option>
+                        <option data-countryCode="FM" value="691">Micronesia (+691)</option>
+                        <option data-countryCode="MD" value="373">Moldova (+373)</option>
+                        <option data-countryCode="MC" value="377">Monaco (+377)</option>
+                        <option data-countryCode="MN" value="976">Mongolia (+976)</option>
+                        <option data-countryCode="MS" value="1664">Montserrat (+1664)</option>
+
+                        <option data-countryCode="MZ" value="258">Mozambique (+258)</option>
+                        <option data-countryCode="MN" value="95">Myanmar (+95)</option>
+                        <option data-countryCode="NA" value="264">Namibia (+264)</option>
+                        <option data-countryCode="NR" value="674">Nauru (+674)</option>
+                        <option data-countryCode="NP" value="977">Nepal (+977)</option>
+                        <option data-countryCode="NL" value="31">Netherlands (+31)</option>
+                        <option data-countryCode="NC" value="687">New Caledonia (+687)</option>
+                        <option data-countryCode="NZ" value="64">New Zealand (+64)</option>
+                        <option data-countryCode="NI" value="505">Nicaragua (+505)</option>
+                        <option data-countryCode="NE" value="227">Niger (+227)</option>
+                        <option data-countryCode="NG" value="234">Nigeria (+234)</option>
+                        <option data-countryCode="NU" value="683">Niue (+683)</option>
+                        <option data-countryCode="NF" value="672">Norfolk Islands (+672)</option>
+                        <option data-countryCode="NP" value="670">Northern Marianas (+670)</option>
+                        <option data-countryCode="NO" value="47">Norway (+47)</option>
+
+                        <option data-countryCode="PW" value="680">Palau (+680)</option>
+                        <option data-countryCode="PA" value="507">Panama (+507)</option>
+                        <option data-countryCode="PG" value="675">Papua New Guinea (+675)</option>
+                        <option data-countryCode="PY" value="595">Paraguay (+595)</option>
+                        <option data-countryCode="PE" value="51">Peru (+51)</option>
+                        <option data-countryCode="PH" value="63">Philippines (+63)</option>
+                        <option data-countryCode="PL" value="48">Poland (+48)</option>
+                        <option data-countryCode="PT" value="351">Portugal (+351)</option>
+                        <option data-countryCode="PR" value="1787">Puerto Rico (+1787)</option>
+
+                        <option data-countryCode="RE" value="262">Reunion (+262)</option>
+                        <option data-countryCode="RO" value="40">Romania (+40)</option>
+                        <option data-countryCode="RU" value="7">Russia (+7)</option>
+                        <option data-countryCode="RW" value="250">Rwanda (+250)</option>
+                        <option data-countryCode="SM" value="378">San Marino (+378)</option>
+                        <option data-countryCode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
+
+                        <option data-countryCode="SN" value="221">Senegal (+221)</option>
+                        <option data-countryCode="CS" value="381">Serbia (+381)</option>
+                        <option data-countryCode="SC" value="248">Seychelles (+248)</option>
+                        <option data-countryCode="SL" value="232">Sierra Leone (+232)</option>
+                        <option data-countryCode="SG" value="65">Singapore (+65)</option>
+                        <option data-countryCode="SK" value="421">Slovak Republic (+421)</option>
+                        <option data-countryCode="SI" value="386">Slovenia (+386)</option>
+                        <option data-countryCode="SB" value="677">Solomon Islands (+677)</option>
+                        <option data-countryCode="SO" value="252">Somalia (+252)</option>
+                        <option data-countryCode="ZA" value="27">South Africa (+27)</option>
+                        <option data-countryCode="ES" value="34">Spain (+34)</option>
+                        <option data-countryCode="LK" value="94">Sri Lanka (+94)</option>
+                        <option data-countryCode="SH" value="290">St. Helena (+290)</option>
+                        <option data-countryCode="KN" value="1869">St. Kitts (+1869)</option>
+                        <option data-countryCode="SC" value="1758">St. Lucia (+1758)</option>
+                        <option data-countryCode="SD" value="249">Sudan (+249)</option>
+                        <option data-countryCode="SR" value="597">Suriname (+597)</option>
+                        <option data-countryCode="SZ" value="268">Swaziland (+268)</option>
+                        <option data-countryCode="SE" value="46">Sweden (+46)</option>
+                        <option data-countryCode="CH" value="41">Switzerland (+41)</option>
+
+                        <option data-countryCode="TW" value="886">Taiwan (+886)</option>
+                        <option data-countryCode="TJ" value="7">Tajikstan (+7)</option>
+                        <option data-countryCode="TH" value="66">Thailand (+66)</option>
+                        <option data-countryCode="TG" value="228">Togo (+228)</option>
+                        <option data-countryCode="TO" value="676">Tonga (+676)</option>
+                        <option data-countryCode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
+
+
+                        <option data-countryCode="TM" value="7">Turkmenistan (+7)</option>
+                        <option data-countryCode="TM" value="993">Turkmenistan (+993)</option>
+                        <option data-countryCode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
+                        <option data-countryCode="TV" value="688">Tuvalu (+688)</option>
+                        <option data-countryCode="UG" value="256">Uganda (+256)</option>
+                        <option data-countryCode="GB" value="44">UK (+44)</option>
+                        <option data-countryCode="UA" value="380">Ukraine (+380)</option>
+
+                        <option data-countryCode="UY" value="598">Uruguay (+598)</option>
+                        <option data-countryCode="US" value="1">USA (+1)</option>
+                        <option data-countryCode="UZ" value="7">Uzbekistan (+7)</option>
+                        <option data-countryCode="VU" value="678">Vanuatu (+678)</option>
+                        <option data-countryCode="VA" value="379">Vatican City (+379)</option>
+                        <option data-countryCode="VE" value="58">Venezuela (+58)</option>
+                        <option data-countryCode="VN" value="84">Vietnam (+84)</option>
+                        <option data-countryCode="VG" value="84">Virgin Islands - British (+1284)</option>
+                        <option data-countryCode="VI" value="84">Virgin Islands - US (+1340)</option>
+                        <option data-countryCode="WF" value="681">Wallis &amp; Futuna (+681)</option>
+
+
+                        <option data-countryCode="ZM" value="260">Zambia (+260)</option>
+                        <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div class="each-input">
+                <label for="">رقم الهاتف</label>
+                <br>
+                <input type="number" name="number" maxlength="11" required>
+            </div>
+        </div>
+
+        <button type="submit">ارسال</button>
+        <div class="contact-whatsapp">
+            <p>او تواصل معنا مباشرة عن طريق الواتس اب</p>
+            <a class="number" href="https://api.whatsapp.com/send?phone=905061162526">
+                <svg viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+                    <desc>Created with Sketch.</desc>
+                    <defs>
+                        <filter x="-7.1%" y="-4.5%" width="118.8%" height="111.8%" filterUnits="objectBoundingBox" id="filter-1">
+                            <feOffset dx="9" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                            <feGaussianBlur stdDeviation="11" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.279693161 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                <feMergeNode in="SourceGraphic"></feMergeNode>
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Desktop-HD-Copy-7" transform="translate(-1345.000000, -658.000000)" fill-rule="nonzero">
+                            <g id="Group-7" transform="translate(1287.000000, 118.000000)">
+                                <g id="Group-2-Copy">
+                                    <g id="Group" filter="url(#filter-1)">
+                                        <g id="whatsapp" transform="translate(70.000000, 552.000000)">
+                                            <path d="M15.503875,0 L15.496125,0 L15.496125,0 C6.9498125,0 0,6.95175 0,15.5 C0,18.890625 1.09275,22.03325 2.9508125,24.5849375 L1.019125,30.3431875 L6.9769375,28.438625 C9.427875,30.06225 12.3515625,31 15.503875,31 C24.0501875,31 31,24.0463125 31,15.5 C31,6.9536875 24.0501875,0 15.503875,0 Z"
+                                                id="Shape" fill="#4CAF50"></path>
+                                            <path d="M24.5229375,21.8879375 C24.149,22.943875 22.664875,23.819625 21.4810625,24.075375 C20.6711875,24.2478125 19.6133125,24.385375 16.0521875,22.909 C11.497125,21.021875 8.56375,16.3931875 8.335125,16.092875 C8.1161875,15.7925625 6.4945,13.6419375 6.4945,11.4176875 C6.4945,9.1934375 7.6240625,8.110375 8.079375,7.645375 C8.4533125,7.2636875 9.071375,7.0893125 9.66425,7.0893125 C9.8560625,7.0893125 10.0285,7.099 10.1835,7.10675 C10.6388125,7.126125 10.8674375,7.15325 11.16775,7.8720625 C11.5416875,8.773 12.4523125,10.99725 12.5608125,11.225875 C12.67125,11.4545 12.7816875,11.7645 12.6266875,12.0648125 C12.481375,12.3748125 12.3535,12.512375 12.124875,12.775875 C11.89625,13.039375 11.67925,13.240875 11.450625,13.52375 C11.241375,13.7698125 11.005,14.0333125 11.2685,14.488625 C11.532,14.93425 12.442625,16.4203125 13.783375,17.6138125 C15.5135625,19.154125 16.9163125,19.64625 17.418125,19.8555 C17.7920625,20.0105 18.2376875,19.9736875 18.510875,19.6830625 C18.8576875,19.309125 19.285875,18.689125 19.7218125,18.0788125 C20.0318125,17.6409375 20.4231875,17.5866875 20.8339375,17.7416875 C21.2524375,17.887 23.467,18.9816875 23.9223125,19.208375 C24.377625,19.437 24.6779375,19.5455 24.788375,19.7373125 C24.896875,19.929125 24.896875,20.8300625 24.5229375,21.8879375 Z"
+                                                id="Shape" fill="#FAFAFA"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+
+
+                <p>+90-506-116-2526</p>
+            </a>
+        </div>
+    </form>
+    <main id="barba-wrapper">
+        <div class="barba-container">
+
+            <header style="background-image: url(https://res.cloudinary.com/dd5e5iszi/image/upload/v1522413092/projects/cayan-4/header.jpg);">
+                <h1>PROPERTY4</h1>
+
+            </header>
+            <div class="body-wrapper">
+                <div class="body">
+                    <div class="price box ">
+                        <p>تبدأ الاسعار</p>
+                        <h2 class="cayan4">$67,200</h2>
+                    </div>
+                    <hr style="border-top: dotted 5px;" class="hr1" />
+
+                    <div class="installments box">
+                        <h1 class="cayan4"> 30%</h1>
+                        <h2 >دفعة اولى</h2>
+
+
+                    </div>
+                </div>
+                <div class="downpayment box ">
+                    <p>دفعة اولى</p>
+                    <h2 class="cayan4">$20,000</h2>
+                </div>
+
+                <div class="body">
+                    <hr style="border-top: dotted 5px;" class="hr1" />
+                    <!-- <hr style="border-top: dotted 5px;" /> -->
+                    <div class="installments installments2 box">
+                        <h1 class="cayan4" > 36</h1>
+                        <h2 >شهر تقسيط</h2>
+                    </div>
+                    <div class="installments  installments3 box">
+                        <h1 class="cayan4"> $1300</h1>
+                        <h2 >شهريا</h2>
+                    </div>
+                    <div class="installments installments2 image  image44 box1">
+                        <h2>ارقى مناطق اسطنبول</h2>
+                    </div>
+                    <div class="installments installments2 image  image45 box1">
+                        <h2>اطلالة بحرية خلابة</h2>
+                    </div>
+                    <div class="installments installments2 image  image46 box1">
+                        <h2>جميع الخدمات</h2>
+                    </div>
+                    <div class="installments installments2 image  image47 box1">
+                        <h2>شقق فاخرة</h2>
+                    </div>
+                    <!-- <div class="installments installments2 image  box1 icons">
+                    <h3>يبعد عن</h3>
+                    <div class="grid">
+                        <div class="icons-each">
+                            <svg width="44px" height="47px" viewBox="0 0 44 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                               
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Desktop-HD" transform="translate(-148.000000, -647.000000)" fill-rule="nonzero" fill="#0288C4">
+                                        <g id="003-bus" transform="translate(148.000000, 647.000000)">
+                                            <path d="M43.6,7.162 L40.221,7.162 L40.221,18.787 L41.572,18.787 L41.572,24.125 L39.004,24.125 L39.004,6.487 C39.005,2.904 36.1,0 32.517,0 L11.162,0 C7.58,0 4.675,2.904 4.675,6.487 L4.675,23.787 L2.445,23.787 L2.445,18.109 L3.864,18.109 L3.864,6.487 L0.486,6.487 L0.486,18.109 L1.905,18.109 L1.905,24.329 L4.675,24.329 L4.675,37.034 C4.675,39.488 6.041,41.627 8.054,42.728 L8.054,46.086 L13.73,46.086 L13.73,43.52 L29.813,43.52 L29.813,46.087 L35.491,46.087 L35.491,42.793 C37.577,41.717 39.004,39.542 39.004,37.033 L39.004,24.664 L42.113,24.664 L42.113,18.786 L43.6,18.786 L43.6,7.162 L43.6,7.162 Z M14.407,1.35 L29.543,1.35 L29.543,4.866 L14.407,4.866 L14.407,1.35 Z M16.028,36.762 L7.649,36.762 L7.649,32.98 L16.028,32.98 L16.028,36.762 Z M36.301,36.762 L27.922,36.762 L27.922,32.98 L36.301,32.98 L36.301,36.762 Z M36.301,24.598 C36.301,24.598 34.679,29.735 21.705,29.735 C8.729,29.735 7.377,24.598 7.377,24.598 L7.377,6.756 L36.301,6.756 L36.301,24.598 Z"
+                                                id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <p>30</p>
+                            <p>دقيقة</p>
+                        </div>
+                        <div class="icons-each">
+                            <svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Desktop-HD" transform="translate(-242.000000, -635.000000)" fill-rule="nonzero" fill="#0288C4">
+                                        <g id="001-aeroplane" transform="translate(242.000000, 635.000000)">
+                                            <path d="M48.004065,36.2333 C48.2696809,36.2999 48.5020325,36.2665 48.7012195,36.1333 C48.9004065,35.9999 49,35.7999 49,35.5333 L49,31.9333 C49,31.2665 48.7012195,30.7333 48.1036585,30.3333 L29.4796748,19.2333 C28.8821138,18.8999 28.5833333,18.3665 28.5833333,17.6333 L28.5833333,5.1333 C28.5833333,4.4666 28.4505752,3.8333 28.1849593,3.2333 C27.4546402,1.3666 26.4254411,0.3333 25.097561,0.1333 C24.898374,0.0666 24.699187,0.0333 24.5,0.0333 C24.300813,0.0333 24.0684614,0.0666 23.8028455,0.1333 C23.7364167,0.1333 23.6534553,0.15 23.5538618,0.1833 C23.4542683,0.2166 23.3380427,0.2666 23.2052846,0.3333 C22.7404817,0.4666 22.3089431,0.7666 21.9105691,1.2333 C21.5121951,1.7 21.2134146,2.1333 21.0142276,2.5333 L20.7154472,3.2333 C20.5162602,3.8333 20.4166667,4.4666 20.4166667,5.1333 L20.4166667,17.6333 C20.4166667,18.3666 20.1178862,18.9 19.5203252,19.2333 L0.896341463,30.3333 C0.298780488,30.7333 0,31.2665 0,31.9333 L0,35.5333 C0,35.7999 0.0995934959,35.9999 0.298780488,36.1333 C0.49796748,36.2665 0.730319106,36.2999 0.995934959,36.2333 L19.4207317,30.2333 C19.6863476,30.0999 19.9186992,30.1165 20.1178862,30.2833 C20.3170732,30.4499 20.4166667,30.6665 20.4166667,30.9333 L20.4166667,40.6333 C20.4166667,41.3667 20.1510508,41.9333 19.6199187,42.3333 L17.1300813,44.1333 C16.5989492,44.5333 16.3333333,45.0999 16.3333333,45.8333 L16.3333333,48.2333 C16.3333333,48.4999 16.4329268,48.6999 16.6321138,48.8333 C16.8313008,48.9667 17.0636524,48.9999 17.3292683,48.9333 L23.504065,47.1333 C24.1680549,46.9333 24.8319451,46.9333 25.495935,47.1333 L31.6707317,48.9333 C31.9363476,48.9999 32.1686992,48.9667 32.3678862,48.8333 C32.5670732,48.6999 32.6666667,48.4999 32.6666667,48.2333 L32.6666667,45.8333 C32.6666667,45.0999 32.4010508,44.5333 31.8699187,44.1333 L29.3800813,42.3333 C28.8489492,41.9333 28.5833333,41.3667 28.5833333,40.6333 L28.5833333,30.9333 C28.5833333,30.5999 28.6829268,30.3665 28.8821138,30.2333 C29.0813008,30.0999 29.3136524,30.0999 29.5792683,30.2333 L48.004065,36.2333 Z"
+                                                id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <p>30</p>
+                            <p>دقيقة</p>
+                        </div>
+                        <div class="icons-each">
+                            <svg width="44px" height="47px" viewBox="0 0 44 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Desktop-HD" transform="translate(-148.000000, -647.000000)" fill-rule="nonzero" fill="#0288C4">
+                                        <g id="003-bus" transform="translate(148.000000, 647.000000)">
+                                            <path d="M43.6,7.162 L40.221,7.162 L40.221,18.787 L41.572,18.787 L41.572,24.125 L39.004,24.125 L39.004,6.487 C39.005,2.904 36.1,0 32.517,0 L11.162,0 C7.58,0 4.675,2.904 4.675,6.487 L4.675,23.787 L2.445,23.787 L2.445,18.109 L3.864,18.109 L3.864,6.487 L0.486,6.487 L0.486,18.109 L1.905,18.109 L1.905,24.329 L4.675,24.329 L4.675,37.034 C4.675,39.488 6.041,41.627 8.054,42.728 L8.054,46.086 L13.73,46.086 L13.73,43.52 L29.813,43.52 L29.813,46.087 L35.491,46.087 L35.491,42.793 C37.577,41.717 39.004,39.542 39.004,37.033 L39.004,24.664 L42.113,24.664 L42.113,18.786 L43.6,18.786 L43.6,7.162 L43.6,7.162 Z M14.407,1.35 L29.543,1.35 L29.543,4.866 L14.407,4.866 L14.407,1.35 Z M16.028,36.762 L7.649,36.762 L7.649,32.98 L16.028,32.98 L16.028,36.762 Z M36.301,36.762 L27.922,36.762 L27.922,32.98 L36.301,32.98 L36.301,36.762 Z M36.301,24.598 C36.301,24.598 34.679,29.735 21.705,29.735 C8.729,29.735 7.377,24.598 7.377,24.598 L7.377,6.756 L36.301,6.756 L36.301,24.598 Z"
+                                                id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <p>30</p>
+                            <p>دقيقة</p>
+                        </div>
+                        <div class="icons-each">
+                            <svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Desktop-HD" transform="translate(-242.000000, -635.000000)" fill-rule="nonzero" fill="#0288C4">
+                                        <g id="001-aeroplane" transform="translate(242.000000, 635.000000)">
+                                            <path d="M48.004065,36.2333 C48.2696809,36.2999 48.5020325,36.2665 48.7012195,36.1333 C48.9004065,35.9999 49,35.7999 49,35.5333 L49,31.9333 C49,31.2665 48.7012195,30.7333 48.1036585,30.3333 L29.4796748,19.2333 C28.8821138,18.8999 28.5833333,18.3665 28.5833333,17.6333 L28.5833333,5.1333 C28.5833333,4.4666 28.4505752,3.8333 28.1849593,3.2333 C27.4546402,1.3666 26.4254411,0.3333 25.097561,0.1333 C24.898374,0.0666 24.699187,0.0333 24.5,0.0333 C24.300813,0.0333 24.0684614,0.0666 23.8028455,0.1333 C23.7364167,0.1333 23.6534553,0.15 23.5538618,0.1833 C23.4542683,0.2166 23.3380427,0.2666 23.2052846,0.3333 C22.7404817,0.4666 22.3089431,0.7666 21.9105691,1.2333 C21.5121951,1.7 21.2134146,2.1333 21.0142276,2.5333 L20.7154472,3.2333 C20.5162602,3.8333 20.4166667,4.4666 20.4166667,5.1333 L20.4166667,17.6333 C20.4166667,18.3666 20.1178862,18.9 19.5203252,19.2333 L0.896341463,30.3333 C0.298780488,30.7333 0,31.2665 0,31.9333 L0,35.5333 C0,35.7999 0.0995934959,35.9999 0.298780488,36.1333 C0.49796748,36.2665 0.730319106,36.2999 0.995934959,36.2333 L19.4207317,30.2333 C19.6863476,30.0999 19.9186992,30.1165 20.1178862,30.2833 C20.3170732,30.4499 20.4166667,30.6665 20.4166667,30.9333 L20.4166667,40.6333 C20.4166667,41.3667 20.1510508,41.9333 19.6199187,42.3333 L17.1300813,44.1333 C16.5989492,44.5333 16.3333333,45.0999 16.3333333,45.8333 L16.3333333,48.2333 C16.3333333,48.4999 16.4329268,48.6999 16.6321138,48.8333 C16.8313008,48.9667 17.0636524,48.9999 17.3292683,48.9333 L23.504065,47.1333 C24.1680549,46.9333 24.8319451,46.9333 25.495935,47.1333 L31.6707317,48.9333 C31.9363476,48.9999 32.1686992,48.9667 32.3678862,48.8333 C32.5670732,48.6999 32.6666667,48.4999 32.6666667,48.2333 L32.6666667,45.8333 C32.6666667,45.0999 32.4010508,44.5333 31.8699187,44.1333 L29.3800813,42.3333 C28.8489492,41.9333 28.5833333,41.3667 28.5833333,40.6333 L28.5833333,30.9333 C28.5833333,30.5999 28.6829268,30.3665 28.8821138,30.2333 C29.0813008,30.0999 29.3136524,30.0999 29.5792683,30.2333 L48.004065,36.2333 Z"
+                                                id="Shape"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <p>30</p>
+                            <p>دقيقة</p>
+                        </div>
+                    </div>
+
+
+                </div> -->
+                </div>
+                <div class="clear">
+                    <section class="places">
+                        <div class="container">
+                            <div class="row">
+                                <div class="text">
+                                    <h2 class={data.classTitle}>يبعد عن</h2>
+
+                                </div>
+                                <div class="places-each ">
+                                    <div class="image metro">
+                                        <p>مترو</p>
+                                    </div>
+                                    <div class="text-each">
+                                        <p class={data.classInfoAr}> دقيقة 30</p>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="places-each ">
+                                    <div class="image ataturk">
+                                        <p>المطار</p>
+                                    </div>
+                                    <div class="text-each">
+                                        <p class={data.classInfoAr}>40 دقيقة</p>
+
+                                    </div>
+                                </div>
+                                <div class="places-each ">
+                                    <div class="image metrobus">
+                                        <p>متروباص</p>
+                                    </div>
+                                    <div class="text-each">
+                                        <p class={data.classInfoAr}>50 دقيقة</p>
+
+                                    </div>
+                                </div>
+                                <div class="places-each ">
+                                    <div class="image new-airport">
+                                        <p>المطار الجديد</p>
+                                    </div>
+                                    <div class="text-each">
+                                        <p class={data.classInfoAr}>60 دقيقة</p>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </section>
+                    <form action="https://api.formbucket.com/f/buk_5pZlX4fRjDrezI22h0yu8oYL" method="post" id="subscribe">
+
+                        <div class="form-text">
+
+                            <img src="https://res.cloudinary.com/dd5e5iszi/image/upload/v1523446663/other/Group-dark.png" alt="">
+                            <h3>دعنا نتصل بك</h3>
+                            <p>من فضلك قم بملأ بياناتك</p>
+                        </div>
+                        <div class="input-wrapper">
+                            <div class="each-input">
+                                <label for="">الاسم بالكامل</label>
+                                <br>
+                                <input type="text" name="name" required id="input">
+                            </div>
+                            <div class="each-input">
+                                <label for="">الايميل</label>
+                                <br>
+                                <input type="email" name="email" required>
+                            </div>
+                            <div class="each-input">
+                                <label for="">البلد</label>
+                                <br>
+                                <!-- <select name="countryCode" id="country-list" required></select> -->
+                                <select name='Country' id="country-list" required>
+                                    <option data-countryCode="TR" value="+90 Turkey" Selected> (90+) Turkey - تركيا</option>
+                                    <option data-countryCode="AE" value="+971 United Arab Emirates">(971+) United Arab Emirates الامرات العربية المتحدة</option>
+                                    <option data-countryCode="SA" value="+966 Saudi Arabia">(966+) Saudi Arabia - المملكة العربية السعودية</option>
+                                    <option data-countryCode="KW" value="+965 Kuwait">(965+) Kuwait - الكويت</option>
+                                    <option data-countryCode="QA" value="+974 Qatar">(974+) Qatar - قطر</option>
+                                    <option data-countryCode="LB" value="+961 Lebanon">(961+) Lebanon - لبنان</option>
+                                    <option data-countryCode="JO" value="+962 Jordan">(962+) Jordan - الاردن</option>
+                                    <option data-countryCode="OM" value="+968 Oman">(968+) Oman - عمان</option>
+                                    <option data-countryCode="MA" value="+212 Morocco">(212+) Morocco - المغرب</option>
+                                    <option data-countryCode="TN" value="+216 Tunisia">(216+) Tunisia - تونس</option>
+                                    <option data-countryCode="DZ" value="+213 Algeria">(213+) Algeria - الجزائر</option>
+                                    <option data-countryCode="SI" value="+963 Syria">(+963) Syria سوريا</option>
+                                    <option data-countryCode="EG" value="+20 Egypt">(+20) Egypt مصر</option>
+                                    <option data-countryCode="LY" value="+218 Libya">(+218) Libya ليبيا</option>
+                                    <option data-countryCode="IR" value="+98 Iran">(+98) Iran ايران</option>
+
+                                    <option data-countryCode="YE" value="+969 Yemen">(+969) Yemen (North) اليمن</option>
+
+
+                                    <optgroup label="Other countries">
+                                        <option data-countryCode="GB" value="44">UK (+44)</option>
+                                        <option data-countryCode="US" value="1">USA (+1)</option>
+                                        <option data-countryCode="AD" value="376">Andorra (+376)</option>
+                                        <option data-countryCode="AO" value="244">Angola (+244)</option>
+                                        <option data-countryCode="AI" value="1264">Anguilla (+1264)</option>
+                                        <option data-countryCode="AG" value="1268">Antigua &amp; Barbuda (+1268)</option>
+                                        <option data-countryCode="AR" value="54">Argentina (+54)</option>
+                                        <option data-countryCode="AM" value="374">Armenia (+374)</option>
+                                        <option data-countryCode="AW" value="297">Aruba (+297)</option>
+                                        <option data-countryCode="AU" value="61">Australia (+61)</option>
+                                        <option data-countryCode="AT" value="43">Austria (+43)</option>
+                                        <option data-countryCode="AZ" value="994">Azerbaijan (+994)</option>
+                                        <option data-countryCode="BS" value="1242">Bahamas (+1242)</option>
+                                        <option data-countryCode="BH" value="973">Bahrain (+973)</option>
+                                        <option data-countryCode="BD" value="880">Bangladesh (+880)</option>
+                                        <option data-countryCode="BB" value="1246">Barbados (+1246)</option>
+                                        <option data-countryCode="BY" value="375">Belarus (+375)</option>
+                                        <option data-countryCode="BE" value="32">Belgium (+32)</option>
+                                        <option data-countryCode="BZ" value="501">Belize (+501)</option>
+                                        <option data-countryCode="BJ" value="229">Benin (+229)</option>
+                                        <option data-countryCode="BM" value="1441">Bermuda (+1441)</option>
+                                        <option data-countryCode="BT" value="975">Bhutan (+975)</option>
+                                        <option data-countryCode="BO" value="591">Bolivia (+591)</option>
+                                        <option data-countryCode="BA" value="387">Bosnia Herzegovina (+387)</option>
+                                        <option data-countryCode="BW" value="267">Botswana (+267)</option>
+                                        <option data-countryCode="BR" value="55">Brazil (+55)</option>
+                                        <option data-countryCode="BN" value="673">Brunei (+673)</option>
+                                        <option data-countryCode="BG" value="359">Bulgaria (+359)</option>
+                                        <option data-countryCode="BF" value="226">Burkina Faso (+226)</option>
+                                        <option data-countryCode="BI" value="257">Burundi (+257)</option>
+                                        <option data-countryCode="KH" value="855">Cambodia (+855)</option>
+                                        <option data-countryCode="CM" value="237">Cameroon (+237)</option>
+                                        <option data-countryCode="CA" value="1">Canada (+1)</option>
+                                        <option data-countryCode="CV" value="238">Cape Verde Islands (+238)</option>
+                                        <option data-countryCode="KY" value="1345">Cayman Islands (+1345)</option>
+                                        <option data-countryCode="CF" value="236">Central African Republic (+236)</option>
+                                        <option data-countryCode="CL" value="56">Chile (+56)</option>
+                                        <option data-countryCode="CN" value="86">China (+86)</option>
+                                        <option data-countryCode="CO" value="57">Colombia (+57)</option>
+                                        <option data-countryCode="KM" value="269">Comoros (+269)</option>
+                                        <option data-countryCode="CG" value="242">Congo (+242)</option>
+                                        <option data-countryCode="CK" value="682">Cook Islands (+682)</option>
+                                        <option data-countryCode="CR" value="506">Costa Rica (+506)</option>
+                                        <option data-countryCode="HR" value="385">Croatia (+385)</option>
+                                        <option data-countryCode="CU" value="53">Cuba (+53)</option>
+                                        <option data-countryCode="CY" value="90392">Cyprus North (+90392)</option>
+                                        <option data-countryCode="CY" value="357">Cyprus South (+357)</option>
+                                        <option data-countryCode="CZ" value="42">Czech Republic (+42)</option>
+                                        <option data-countryCode="DK" value="45">Denmark (+45)</option>
+                                        <option data-countryCode="DJ" value="253">Djibouti (+253)</option>
+                                        <option data-countryCode="DM" value="1809">Dominica (+1809)</option>
+                                        <option data-countryCode="DO" value="1809">Dominican Republic (+1809)</option>
+                                        <option data-countryCode="EC" value="593">Ecuador (+593)</option>
+
+                                        <option data-countryCode="SV" value="503">El Salvador (+503)</option>
+                                        <option data-countryCode="GQ" value="240">Equatorial Guinea (+240)</option>
+                                        <option data-countryCode="ER" value="291">Eritrea (+291)</option>
+                                        <option data-countryCode="EE" value="372">Estonia (+372)</option>
+                                        <option data-countryCode="ET" value="251">Ethiopia (+251)</option>
+                                        <option data-countryCode="FK" value="500">Falkland Islands (+500)</option>
+                                        <option data-countryCode="FO" value="298">Faroe Islands (+298)</option>
+                                        <option data-countryCode="FJ" value="679">Fiji (+679)</option>
+                                        <option data-countryCode="FI" value="358">Finland (+358)</option>
+                                        <option data-countryCode="FR" value="33">France (+33)</option>
+                                        <option data-countryCode="GF" value="594">French Guiana (+594)</option>
+                                        <option data-countryCode="PF" value="689">French Polynesia (+689)</option>
+                                        <option data-countryCode="GA" value="241">Gabon (+241)</option>
+                                        <option data-countryCode="GM" value="220">Gambia (+220)</option>
+                                        <option data-countryCode="GE" value="7880">Georgia (+7880)</option>
+                                        <option data-countryCode="DE" value="49">Germany (+49)</option>
+                                        <option data-countryCode="GH" value="233">Ghana (+233)</option>
+                                        <option data-countryCode="GI" value="350">Gibraltar (+350)</option>
+                                        <option data-countryCode="GR" value="30">Greece (+30)</option>
+                                        <option data-countryCode="GL" value="299">Greenland (+299)</option>
+                                        <option data-countryCode="GD" value="1473">Grenada (+1473)</option>
+                                        <option data-countryCode="GP" value="590">Guadeloupe (+590)</option>
+                                        <option data-countryCode="GU" value="671">Guam (+671)</option>
+                                        <option data-countryCode="GT" value="502">Guatemala (+502)</option>
+                                        <option data-countryCode="GN" value="224">Guinea (+224)</option>
+                                        <option data-countryCode="GW" value="245">Guinea - Bissau (+245)</option>
+                                        <option data-countryCode="GY" value="592">Guyana (+592)</option>
+                                        <option data-countryCode="HT" value="509">Haiti (+509)</option>
+                                        <option data-countryCode="HN" value="504">Honduras (+504)</option>
+                                        <option data-countryCode="HK" value="852">Hong Kong (+852)</option>
+                                        <option data-countryCode="HU" value="36">Hungary (+36)</option>
+                                        <option data-countryCode="IS" value="354">Iceland (+354)</option>
+                                        <option data-countryCode="IN" value="91">India (+91)</option>
+                                        <option data-countryCode="ID" value="62">Indonesia (+62)</option>
+
+                                        <option data-countryCode="IQ" value="964">Iraq (+964)</option>
+                                        <option data-countryCode="IE" value="353">Ireland (+353)</option>
+                                        <option data-countryCode="IL" value="972">Israel (+972)</option>
+                                        <option data-countryCode="IT" value="39">Italy (+39)</option>
+                                        <option data-countryCode="JM" value="1876">Jamaica (+1876)</option>
+                                        <option data-countryCode="JP" value="81">Japan (+81)</option>
+
+                                        <option data-countryCode="KZ" value="7">Kazakhstan (+7)</option>
+                                        <option data-countryCode="KE" value="254">Kenya (+254)</option>
+                                        <option data-countryCode="KI" value="686">Kiribati (+686)</option>
+                                        <option data-countryCode="KP" value="850">Korea North (+850)</option>
+                                        <option data-countryCode="KR" value="82">Korea South (+82)</option>
+
+                                        <option data-countryCode="KG" value="996">Kyrgyzstan (+996)</option>
+                                        <option data-countryCode="LA" value="856">Laos (+856)</option>
+                                        <option data-countryCode="LV" value="371">Latvia (+371)</option>
+
+                                        <option data-countryCode="LS" value="266">Lesotho (+266)</option>
+                                        <option data-countryCode="LR" value="231">Liberia (+231)</option>
+
+                                        <option data-countryCode="LI" value="417">Liechtenstein (+417)</option>
+                                        <option data-countryCode="LT" value="370">Lithuania (+370)</option>
+                                        <option data-countryCode="LU" value="352">Luxembourg (+352)</option>
+                                        <option data-countryCode="MO" value="853">Macao (+853)</option>
+                                        <option data-countryCode="MK" value="389">Macedonia (+389)</option>
+                                        <option data-countryCode="MG" value="261">Madagascar (+261)</option>
+                                        <option data-countryCode="MW" value="265">Malawi (+265)</option>
+                                        <option data-countryCode="MY" value="60">Malaysia (+60)</option>
+                                        <option data-countryCode="MV" value="960">Maldives (+960)</option>
+                                        <option data-countryCode="ML" value="223">Mali (+223)</option>
+                                        <option data-countryCode="MT" value="356">Malta (+356)</option>
+                                        <option data-countryCode="MH" value="692">Marshall Islands (+692)</option>
+                                        <option data-countryCode="MQ" value="596">Martinique (+596)</option>
+                                        <option data-countryCode="MR" value="222">Mauritania (+222)</option>
+                                        <option data-countryCode="YT" value="269">Mayotte (+269)</option>
+                                        <option data-countryCode="MX" value="52">Mexico (+52)</option>
+                                        <option data-countryCode="FM" value="691">Micronesia (+691)</option>
+                                        <option data-countryCode="MD" value="373">Moldova (+373)</option>
+                                        <option data-countryCode="MC" value="377">Monaco (+377)</option>
+                                        <option data-countryCode="MN" value="976">Mongolia (+976)</option>
+                                        <option data-countryCode="MS" value="1664">Montserrat (+1664)</option>
+
+                                        <option data-countryCode="MZ" value="258">Mozambique (+258)</option>
+                                        <option data-countryCode="MN" value="95">Myanmar (+95)</option>
+                                        <option data-countryCode="NA" value="264">Namibia (+264)</option>
+                                        <option data-countryCode="NR" value="674">Nauru (+674)</option>
+                                        <option data-countryCode="NP" value="977">Nepal (+977)</option>
+                                        <option data-countryCode="NL" value="31">Netherlands (+31)</option>
+                                        <option data-countryCode="NC" value="687">New Caledonia (+687)</option>
+                                        <option data-countryCode="NZ" value="64">New Zealand (+64)</option>
+                                        <option data-countryCode="NI" value="505">Nicaragua (+505)</option>
+                                        <option data-countryCode="NE" value="227">Niger (+227)</option>
+                                        <option data-countryCode="NG" value="234">Nigeria (+234)</option>
+                                        <option data-countryCode="NU" value="683">Niue (+683)</option>
+                                        <option data-countryCode="NF" value="672">Norfolk Islands (+672)</option>
+                                        <option data-countryCode="NP" value="670">Northern Marianas (+670)</option>
+                                        <option data-countryCode="NO" value="47">Norway (+47)</option>
+
+                                        <option data-countryCode="PW" value="680">Palau (+680)</option>
+                                        <option data-countryCode="PA" value="507">Panama (+507)</option>
+                                        <option data-countryCode="PG" value="675">Papua New Guinea (+675)</option>
+                                        <option data-countryCode="PY" value="595">Paraguay (+595)</option>
+                                        <option data-countryCode="PE" value="51">Peru (+51)</option>
+                                        <option data-countryCode="PH" value="63">Philippines (+63)</option>
+                                        <option data-countryCode="PL" value="48">Poland (+48)</option>
+                                        <option data-countryCode="PT" value="351">Portugal (+351)</option>
+                                        <option data-countryCode="PR" value="1787">Puerto Rico (+1787)</option>
+
+                                        <option data-countryCode="RE" value="262">Reunion (+262)</option>
+                                        <option data-countryCode="RO" value="40">Romania (+40)</option>
+                                        <option data-countryCode="RU" value="7">Russia (+7)</option>
+                                        <option data-countryCode="RW" value="250">Rwanda (+250)</option>
+                                        <option data-countryCode="SM" value="378">San Marino (+378)</option>
+                                        <option data-countryCode="ST" value="239">Sao Tome &amp; Principe (+239)</option>
+
+                                        <option data-countryCode="SN" value="221">Senegal (+221)</option>
+                                        <option data-countryCode="CS" value="381">Serbia (+381)</option>
+                                        <option data-countryCode="SC" value="248">Seychelles (+248)</option>
+                                        <option data-countryCode="SL" value="232">Sierra Leone (+232)</option>
+                                        <option data-countryCode="SG" value="65">Singapore (+65)</option>
+                                        <option data-countryCode="SK" value="421">Slovak Republic (+421)</option>
+                                        <option data-countryCode="SI" value="386">Slovenia (+386)</option>
+                                        <option data-countryCode="SB" value="677">Solomon Islands (+677)</option>
+                                        <option data-countryCode="SO" value="252">Somalia (+252)</option>
+                                        <option data-countryCode="ZA" value="27">South Africa (+27)</option>
+                                        <option data-countryCode="ES" value="34">Spain (+34)</option>
+                                        <option data-countryCode="LK" value="94">Sri Lanka (+94)</option>
+                                        <option data-countryCode="SH" value="290">St. Helena (+290)</option>
+                                        <option data-countryCode="KN" value="1869">St. Kitts (+1869)</option>
+                                        <option data-countryCode="SC" value="1758">St. Lucia (+1758)</option>
+                                        <option data-countryCode="SD" value="249">Sudan (+249)</option>
+                                        <option data-countryCode="SR" value="597">Suriname (+597)</option>
+                                        <option data-countryCode="SZ" value="268">Swaziland (+268)</option>
+                                        <option data-countryCode="SE" value="46">Sweden (+46)</option>
+                                        <option data-countryCode="CH" value="41">Switzerland (+41)</option>
+
+                                        <option data-countryCode="TW" value="886">Taiwan (+886)</option>
+                                        <option data-countryCode="TJ" value="7">Tajikstan (+7)</option>
+                                        <option data-countryCode="TH" value="66">Thailand (+66)</option>
+                                        <option data-countryCode="TG" value="228">Togo (+228)</option>
+                                        <option data-countryCode="TO" value="676">Tonga (+676)</option>
+                                        <option data-countryCode="TT" value="1868">Trinidad &amp; Tobago (+1868)</option>
+
+
+                                        <option data-countryCode="TM" value="7">Turkmenistan (+7)</option>
+                                        <option data-countryCode="TM" value="993">Turkmenistan (+993)</option>
+                                        <option data-countryCode="TC" value="1649">Turks &amp; Caicos Islands (+1649)</option>
+                                        <option data-countryCode="TV" value="688">Tuvalu (+688)</option>
+                                        <option data-countryCode="UG" value="256">Uganda (+256)</option>
+                                        <option data-countryCode="GB" value="44">UK (+44)</option>
+                                        <option data-countryCode="UA" value="380">Ukraine (+380)</option>
+
+                                        <option data-countryCode="UY" value="598">Uruguay (+598)</option>
+                                        <option data-countryCode="US" value="1">USA (+1)</option>
+                                        <option data-countryCode="UZ" value="7">Uzbekistan (+7)</option>
+                                        <option data-countryCode="VU" value="678">Vanuatu (+678)</option>
+                                        <option data-countryCode="VA" value="379">Vatican City (+379)</option>
+                                        <option data-countryCode="VE" value="58">Venezuela (+58)</option>
+                                        <option data-countryCode="VN" value="84">Vietnam (+84)</option>
+                                        <option data-countryCode="VG" value="84">Virgin Islands - British (+1284)</option>
+                                        <option data-countryCode="VI" value="84">Virgin Islands - US (+1340)</option>
+                                        <option data-countryCode="WF" value="681">Wallis &amp; Futuna (+681)</option>
+
+
+                                        <option data-countryCode="ZM" value="260">Zambia (+260)</option>
+                                        <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+
+                            <div class="each-input">
+                                <label for="">رقم الهاتف</label>
+                                <br>
+                                <input type="text" name="number" maxlength="11" required>
+                            </div>
+                        </div>
+
+                        <button type="submit">ارسال</button>
+                        <div class="contact-whatsapp" href="https://api.whatsapp.com/send?phone=905061162526">
+                            <p>او تواصل معنا مباشرة عن طريق الواتس اب</p>
+                            <a class="number">
+                                <svg viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+                                    <desc>Created with Sketch.</desc>
+                                    <defs>
+                                        <filter x="-7.1%" y="-4.5%" width="118.8%" height="111.8%" filterUnits="objectBoundingBox" id="filter-1">
+                                            <feOffset dx="9" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                            <feGaussianBlur stdDeviation="11" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.279693161 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+                                            <feMerge>
+                                                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                                                <feMergeNode in="SourceGraphic"></feMergeNode>
+                                            </feMerge>
+                                        </filter>
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Desktop-HD-Copy-7" transform="translate(-1345.000000, -658.000000)" fill-rule="nonzero">
+                                            <g id="Group-7" transform="translate(1287.000000, 118.000000)">
+                                                <g id="Group-2-Copy">
+                                                    <g id="Group" filter="url(#filter-1)">
+                                                        <g id="whatsapp" transform="translate(70.000000, 552.000000)">
+                                                            <path d="M15.503875,0 L15.496125,0 L15.496125,0 C6.9498125,0 0,6.95175 0,15.5 C0,18.890625 1.09275,22.03325 2.9508125,24.5849375 L1.019125,30.3431875 L6.9769375,28.438625 C9.427875,30.06225 12.3515625,31 15.503875,31 C24.0501875,31 31,24.0463125 31,15.5 C31,6.9536875 24.0501875,0 15.503875,0 Z"
+                                                                id="Shape" fill="#4CAF50"></path>
+                                                            <path d="M24.5229375,21.8879375 C24.149,22.943875 22.664875,23.819625 21.4810625,24.075375 C20.6711875,24.2478125 19.6133125,24.385375 16.0521875,22.909 C11.497125,21.021875 8.56375,16.3931875 8.335125,16.092875 C8.1161875,15.7925625 6.4945,13.6419375 6.4945,11.4176875 C6.4945,9.1934375 7.6240625,8.110375 8.079375,7.645375 C8.4533125,7.2636875 9.071375,7.0893125 9.66425,7.0893125 C9.8560625,7.0893125 10.0285,7.099 10.1835,7.10675 C10.6388125,7.126125 10.8674375,7.15325 11.16775,7.8720625 C11.5416875,8.773 12.4523125,10.99725 12.5608125,11.225875 C12.67125,11.4545 12.7816875,11.7645 12.6266875,12.0648125 C12.481375,12.3748125 12.3535,12.512375 12.124875,12.775875 C11.89625,13.039375 11.67925,13.240875 11.450625,13.52375 C11.241375,13.7698125 11.005,14.0333125 11.2685,14.488625 C11.532,14.93425 12.442625,16.4203125 13.783375,17.6138125 C15.5135625,19.154125 16.9163125,19.64625 17.418125,19.8555 C17.7920625,20.0105 18.2376875,19.9736875 18.510875,19.6830625 C18.8576875,19.309125 19.285875,18.689125 19.7218125,18.0788125 C20.0318125,17.6409375 20.4231875,17.5866875 20.8339375,17.7416875 C21.2524375,17.887 23.467,18.9816875 23.9223125,19.208375 C24.377625,19.437 24.6779375,19.5455 24.788375,19.7373125 C24.896875,19.929125 24.896875,20.8300625 24.5229375,21.8879375 Z"
+                                                                id="Shape" fill="#FAFAFA"></path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+
+
+                                <p>+90-506-116-2526</p>
+                            </a>
+                        </div>
+                    </form>
+                    <p class="footer"> جميع الحقوق محفوظة مجموعة كيان العقارية  2018 &copy; </p>
+                </div>
+            </div>
+                <a class="nav prev" href="index.html" style="background-image: url(https://res.cloudinary.com/dd5e5iszi/image/upload/v1522440045/projects/cayan-100/7.jpg);"></a>
+                <a class="nav next" href="3.html" style="background-image: url(https://res.cloudinary.com/dd5e5iszi/image/upload/v1527589024/projects/cayan-136/6.jpg);"></a>
+
+            
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.1/TweenMax.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js" type="text/javascript"></script>
+
+
+    <script src="nextprev.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
